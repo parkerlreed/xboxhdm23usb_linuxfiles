@@ -18,7 +18,7 @@ while(true); do
 		case $opt in
 			"List drives connected")
 				hdd_path=/dev/`select_hdd`
-                break
+				break
 				;;
 			"Launch xboxhdm")
 				qemu_run $hdd_path
@@ -39,4 +39,5 @@ while(true); do
 		esac
 	done
 done
+
 
